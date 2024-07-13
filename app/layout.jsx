@@ -11,7 +11,7 @@ const nunitoSans = Nunito_Sans({
 
 export const metadata = {
   title: "EchoMed App",
-  description: "EchoMed is a next generation TeleMedicine app",
+  description: "EchoMed is a next generation TeleMedicine app built with NextJs and Appwrite",
 };
 
 export default function RootLayout({ children }) {
