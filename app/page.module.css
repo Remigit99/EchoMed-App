@@ -5,10 +5,62 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: black;
+  color: white;
 }
 
 .mainContainer{
   display: grid;
   grid-template-columns: 1fr 1.35fr;
   gap: 7rem;
+}
+
+.loginHeader{
+  margin-bottom: 3.5rem;
+}
+
+.appointForm{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.inputGroup{
+  background-color: rgb(82, 82, 82);
+  border-radius: 0.5rem;
+  padding: 0.15rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.mainInput{
+  width: 100%;
+  padding: 0.5rem;
+  background-color: transparent !important;
+  font-family: inherit;
+  outline: none !important;
+  border: none  !important; 
+  color: white;
+}
+
+.PhoneInput--focus{
+  background-color: transparent !important;
+  font-family: inherit;
+  outline: none !important;
+  border: none  !important; 
+}
+
+.mainInput::placeholder{
+  color: white;
+}
+
+
+.icons{
+  width: 1.5rem;
+
+}
+
+.onBoardingImg{
+  border-radius: 2rem;
 }
